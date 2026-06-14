@@ -11,6 +11,7 @@ from trackers.core.botsort.tracker import BoTSORTTracker
 from trackers.core.bytetrack.tracker import ByteTrackTracker
 from trackers.core.cbiou.tracker import CBIoUTracker
 from trackers.core.ocsort.tracker import OCSORTTracker
+from trackers.core.oriented_sort.tracker import OrientedSORTTracker
 from trackers.core.sort.tracker import SORTTracker
 from trackers.datasets.download import download_dataset
 from trackers.datasets.manifest import Dataset, DatasetAsset, DatasetSplit
@@ -49,6 +50,7 @@ __all__ = [
     "MotionAwareTraceAnnotator",
     "MotionEstimator",
     "OCSORTTracker",
+    "OrientedSORTTracker",
     "SORTTracker",
     "download_dataset",
     "frames_from_source",
